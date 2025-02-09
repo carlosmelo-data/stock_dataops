@@ -1,0 +1,33 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar arquivos temporários do sistema operacional
+*.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração de IDEs comuns
+.vscode/
+.idea/
+
+# Ignorar arquivos do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de log e temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do Office temporários
+~$*
+
+# Ignorar CSVs e outros arquivos gerados automaticamente, se necessário
+*.csv
+
+# Ignorar a pasta data e seus arquivos
+data/
+
+# Ignorar a pasta docs e seus arquivos
+docs/
+
+# Ignorar o app_v1, que tem a API_Key
+src/api_v1.py
